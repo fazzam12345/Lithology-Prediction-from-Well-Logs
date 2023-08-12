@@ -18,7 +18,7 @@ st.markdown("""
 """)
 
 def predict_lithology(file_path):
-    model = load_model('model_(DEPTH_MD,DRHO,NPHI,DTC,GR,PEF,RDEP,RHOB,CALI,RMED,NPHI_to_GR)_-0,59_fillna(0)_CNN.h5')
+    model = load_model('model.h5')
     scaler = load('my_scaler4.pkl')
     df = pd.read_csv(file_path, delimiter=',')
     df['NPHI_to_GR'] = df['NPHI'] / df['GR']
