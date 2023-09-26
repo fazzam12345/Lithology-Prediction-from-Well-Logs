@@ -16,6 +16,12 @@ This project is a web application built using Streamlit that predicts lithology 
 
 ---
 
+## Data Source 📊
+The training data used for the pre-trained model comes from the Force-2020-Machine-Learning-competition by bolgebrygg. For more details, you can visit their [GitHub repository](https://github.com/bolgebrygg/Force-2020-Machine-Learning-competition).
+
+---
+
+
 ## Requirements 📋
 - Python 3.x
 - Streamlit
