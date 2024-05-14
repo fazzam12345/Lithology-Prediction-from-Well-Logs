@@ -11,18 +11,18 @@
 
 ---
 
-## Introduction 🌟
+## Introduction 
 This project is a web application built using Streamlit that predicts lithology from well logs. The application uses a pre-trained Convolutional Neural Network (CNN) model from TensorFlow to make predictions. The well logs are visualized using Matplotlib, and the results can be downloaded as a CSV file.
 
 ---
 
-## Data Source 📊
+## Data Source 
 The training data used for the pre-trained model comes from the Force-2020-Machine-Learning-competition by bolgebrygg. For more details, you can visit their [GitHub repository](https://github.com/bolgebrygg/Force-2020-Machine-Learning-competition).
 
 ---
 
 
-## Requirements 📋
+## Requirements 
 - Python 3.x
 - Streamlit
 - TensorFlow
@@ -33,7 +33,7 @@ The training data used for the pre-trained model comes from the Force-2020-Machi
 
 ---
 
-## Installation 🛠️
+## Installation 
 
 1. **Clone the repository**
     ```bash
@@ -50,7 +50,7 @@ The training data used for the pre-trained model comes from the Force-2020-Machi
 
 ---
 
-## How to Run 🚀
+## How to Run 
 
 1. **Navigate to the project directory**
     ```bash
@@ -63,7 +63,7 @@ The training data used for the pre-trained model comes from the Force-2020-Machi
 
 ---
 
-## Code Explanation 📝
+## Code
 
 ### Importing Libraries
 - **Streamlit**: For creating the web application.
@@ -84,11 +84,6 @@ The training data used for the pre-trained model comes from the Force-2020-Machi
 
 ### Main Function
 - Orchestrates the entire flow of the application, from UI creation to data processing and visualization.
-
----
-
-## Contributing 🤝
-Feel free to open issues and pull requests!
 
 ---
 
